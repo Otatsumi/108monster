@@ -11,9 +11,18 @@
 \fB./108monstre\fR <\fIcoef a\fR> <\fInmax\fR>
 .P
 .SH DESCRIPTION
+.br
+	calcul the approcimation of the courbe of the fonction:
+.br
+.br
 
-List of the mods :
 
+		+∞
+.br
+x |->	Σ  cos(a^k * π * x) / 2^k
+.br
+		k=0
+.br
 .SH SEE ALSO
 No related manpage.
 
