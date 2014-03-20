@@ -14,21 +14,20 @@
 .br
 	calcul the approcimation of the courbe of the fonction:
 .br
-.br
 
 
-		+∞
+	+∞
 .br
-x |->	Σ  cos(a^k * π * x) / 2^k
+x ->	Σ  cos(a^k * π * x) / 2^k
 .br
-		k=0
+	k=0
+.br
+the symbol +∞ is replace by the argument nmax
 .br
 .SH SEE ALSO
 No related manpage.
-
 .SH REPORTING BUGS
 No known bugs.
-
 .br
 Report ./108monster bugs to jordan.bauwens@epitech.eu
 .SH AUTHOR

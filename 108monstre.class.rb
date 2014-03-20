@@ -10,12 +10,11 @@ class Monster
     
     if val > 0
       @val = val
-      @pas = val.abs / 1000
     else
       Error::call "error, argument is different of 0"
     end
     
-    if a >= 2
+    if a > 2
       @a = a
     else
       Error::call "error, argument a = #{a} is invalide. superior at 2 only"
@@ -27,7 +26,7 @@ class Monster
     while @min <= @max
       k = 0.0
       y = 0.0
-      while k < @val
+      while k <= @val
         y = y + (Math.cos(@a**k * Math::PI * @min) / 2**k)
         k = k + 1
       end
