@@ -12,7 +12,7 @@
 .P
 .SH DESCRIPTION
 .br
-	calcul the approcimation of the courbe of the fonction:
+	calcul the approcimation of the courbe of the non derivable fonction:
 .br
 
 
